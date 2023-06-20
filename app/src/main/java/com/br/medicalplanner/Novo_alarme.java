@@ -1,5 +1,6 @@
 package com.br.medicalplanner;
 
+import androidx.appcompat.app.ActionBar;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
@@ -27,6 +28,9 @@ public class Novo_alarme extends AppCompatActivity {
 
         alarmTimePicker = (TimePicker) findViewById(R.id.timePicker);
         alarmManager = (AlarmManager) getSystemService(ALARM_SERVICE);
+
+        ActionBar ab = getSupportActionBar();
+        ab.setDisplayHomeAsUpEnabled(true);
     }
     // OnToggleClicked() method is implemented the time functionality
 

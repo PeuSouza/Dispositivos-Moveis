@@ -7,10 +7,11 @@ import androidx.appcompat.widget.ButtonBarLayout;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.Button;
 
 public class CadastroRemedio extends AppCompatActivity {
 
-    private ButtonBarLayout botao_cadastrar_remedio;
+    private Button botao_cadastrar_remedio;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
